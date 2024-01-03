@@ -1,0 +1,27 @@
+#rabbitCounter, #plantCounter, #predatorCounter {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 1000; /* Ensure the counters are above the canvas */
+}
+
+#plantCounter {
+    top: 35px; /* Adjusted to appear below the rabbit counter */
+}
+
+#predatorCounter {
+    top: 60px; /* Adjusted to appear below the plant counter */
+}
+
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    background-color: #009F00; /* Light Green Background */
+}
